@@ -6,6 +6,9 @@
 <a href="https://packagist.org/packages/mpociot/reanimate">
     <img src="http://img.shields.io/packagist/dt/mpociot/reanimate.svg?style=flat" style="vertical-align: text-top">
 </a>
+<a href="https://travis-ci.org/mpociot/reanimate">
+	<img src="https://travis-ci.org/mpociot/reanimate.svg?branch=develop" style="vertical-align: text-top">
+</a>
 
 Restoring models in laravel is easy. Simply call `restore` on the soft-deleted model and you're good to go. But what if you want to implement a simple `undo` mechanism in your application?
 

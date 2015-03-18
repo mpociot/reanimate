@@ -113,7 +113,7 @@ class ReanimationTest extends PHPUnit_Framework_TestCase
         $mockRedirect = Mockery::mock('\Illuminate\Http\Redirector');
         $mockRedirect->shouldReceive( 'route' )->with( "userIndex" )->andReturnSelf();
         $mockRedirect->shouldReceive( 'with' )->withArgs([
-            "error", "user.undo.invalid"
+            "message", "user.undo.invalid"
         ])->andReturnSelf();
         \Illuminate\Support\Facades\Redirect::swap( $mockRedirect );
 
@@ -128,7 +128,7 @@ class ReanimationTest extends PHPUnit_Framework_TestCase
         $mockRedirect = Mockery::mock('\Illuminate\Http\Redirector');
         $mockRedirect->shouldReceive( 'route' )->with( "customIndex" )->andReturnSelf();
         $mockRedirect->shouldReceive( 'with' )->withArgs([
-            "error", "user.undo.invalid"
+            "message", "user.undo.invalid"
         ])->andReturnSelf();
         \Illuminate\Support\Facades\Redirect::swap( $mockRedirect );
 
@@ -159,7 +159,7 @@ class ReanimationTest extends PHPUnit_Framework_TestCase
         $mockRedirect = Mockery::mock('\Illuminate\Http\Redirector');
         $mockRedirect->shouldReceive( 'route' )->with( "customIndex" )->andReturnSelf();
         $mockRedirect->shouldReceive( 'with' )->withArgs([
-            "error", "user.undo.invalid"
+            "message", "user.undo.invalid"
         ])->andReturnSelf();
         \Illuminate\Support\Facades\Redirect::swap( $mockRedirect );
 
@@ -175,7 +175,7 @@ class ReanimationTest extends PHPUnit_Framework_TestCase
         $mockRedirect = Mockery::mock('\Illuminate\Http\Redirector');
         $mockRedirect->shouldReceive( 'route' )->with( "customIndex" )->andReturnSelf();
         $mockRedirect->shouldReceive( 'with' )->withArgs([
-            "error", "user.undo.invalid"
+            "message", "user.undo.invalid"
         ])->andReturnSelf();
         \Illuminate\Support\Facades\Redirect::swap( $mockRedirect );
 

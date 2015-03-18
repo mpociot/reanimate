@@ -1,10 +1,10 @@
 <img src="http://www.titaniumcontrols.com/git/reanimate.png" style="width: 100%" alt="Reanimate" />
 
-<a href="https://packagist.org/packages/mpociot/reanimation">
-    <img src="http://img.shields.io/github/tag/mpociot/reanimation.svg?style=flat" style="vertical-align: text-top">
+<a href="https://packagist.org/packages/mpociot/reanimate">
+    <img src="http://img.shields.io/github/tag/mpociot/reanimate.svg?style=flat" style="vertical-align: text-top">
 </a>
-<a href="https://packagist.org/packages/mpociot/reanimation">
-    <img src="http://img.shields.io/packagist/dt/mpociot/reanimation.svg?style=flat" style="vertical-align: text-top">
+<a href="https://packagist.org/packages/mpociot/reanimate">
+    <img src="http://img.shields.io/packagist/dt/mpociot/reanimate.svg?style=flat" style="vertical-align: text-top">
 </a>
 
 Restoring models in laravel is easy. Simply call `restore` on the soft-deleted model and you're good to go. But what if you want to implement a simple `undo` mechanism in your application?
@@ -18,12 +18,12 @@ Reanimate is a laravel package that allows you to do just that. It simplifies un
 
 ## Installation
 
-Reanimation can be installed via [composer](http://getcomposer.org/doc/00-intro.md), the details are on [packagist, here.](https://packagist.org/packages/mpociot/reanimation)
+Reanimate can be installed via [composer](http://getcomposer.org/doc/00-intro.md), the details are on [packagist, here.](https://packagist.org/packages/mpociot/reanimate)
 
 To download and use this package, add the following to the `require` section of your projects composer.json file:
 
 ```php
-"mpociot/reanimation": "1.*",
+"mpociot/reanimate": "1.*",
 ```
 
 Run composer update to download the package
